@@ -1,0 +1,215 @@
+﻿---
+---
+
+<head>
+  <link rel="stylesheet" href="/styles/global.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="/js/stickers.js" defer></script>
+</head>
+
+<!-- NAV -->
+<div class="navbar">
+  <div class="navbar-inner">
+    <!-- Left: Hamburger -->
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <div class="hamburger-lines">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+
+    <!-- Center: Name -->
+    <a href="/" class="nav-logo-center">
+      <span class="logo-text">LIGHT</span>
+    </a>
+
+    <!-- Right: Circle Logo -->
+    <a href="/" class="logo-circle" aria-label="Home">L</a>
+
+    <!-- Expanded Cards -->
+    <div class="nav-cards" id="navCards">
+      <div class="nav-card nav-card-about">
+        <div class="nav-card-label">About</div>
+        <div class="nav-card-links">
+          <a href="#about" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Basic Info
+          </a>
+          <a href="#about" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Education
+          </a>
+          <a href="#about" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Experience
+          </a>
+        </div>
+      </div>
+      <div class="nav-card nav-card-work">
+        <div class="nav-card-label">Works</div>
+        <div class="nav-card-links">
+          <a href="/practice" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Practice
+          </a>
+          <a href="/mobile" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Mobile
+          </a>
+          <a href="/web" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Web
+          </a>
+          <a href="/h5-graphic" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            H5 &amp; Graphic
+          </a>
+        </div>
+      </div>
+      <div class="nav-card nav-card-contact">
+        <div class="nav-card-label">Contact</div>
+        <div class="nav-card-links">
+          <a href="#contact" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Email
+          </a>
+          <a href="#" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Dribbble
+          </a>
+          <a href="#" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>Light</h1>
+    <p class="hero-subtitle">Designing experiences that matter</p>
+  </div>
+  <nav class="hero-nav">
+    <a href="#about" class="nav-btn">About</a>
+    <a href="#works" class="nav-btn">Works</a>
+    <a href="#contact" class="nav-btn">Contact</a>
+  </nav>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section">
+  <h2 class="section-title">关于我</h2>
+  <div class="about-grid">
+    <div class="about-photo-wrapper">
+      <div class="about-photo-placeholder"><span>你的照片</span></div>
+    </div>
+    <div class="about-row">
+      <div class="about-card card-basic">
+        <h3>基本信息</h3>
+        <p>上海 UI/UX 设计师</p>
+        <p>专注于通过深思熟虑的设计和以用户为中心的思考，创造有意义的数字体验。</p>
+      </div>
+      <div class="about-card card-edu">
+        <h3>教育经历</h3>
+        <div class="timeline-item">
+          <span class="timeline-year">2020 — 2024</span>
+          <span class="timeline-title">设计学士</span>
+          <span class="timeline-school">XX 大学</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">2019 — 2020</span>
+          <span class="timeline-title">预科</span>
+          <span class="timeline-school">艺术学院</span>
+        </div>
+      </div>
+      <div class="about-card card-exp">
+        <h3>实习经历</h3>
+        <div class="exp-item">
+          <span class="exp-company">公司 A</span>
+          <span class="exp-role">UI/UX 实习生</span>
+          <span class="exp-period">2023年6月 — 2023年9月</span>
+          <p>为一款服务50万+用户的金融科技移动端应用设计用户界面。开展用户研究和可用性测试，迭代关键流程。</p>
+        </div>
+        <div class="exp-item">
+          <span class="exp-company">公司 B</span>
+          <span class="exp-role">设计实习生</span>
+          <span class="exp-period">2023年1月 — 2023年4月</span>
+          <p>与跨职能团队协作交付3个主要产品功能。创建设计系统和组件库。</p>
+        </div>
+      </div>
+    </div>
+    <div class="sticker sticker-1">UX 设计</div>
+    <div class="sticker sticker-2">设计策略</div>
+    <div class="sticker sticker-3">原型设计</div>
+    <div class="sticker sticker-4">用户研究</div>
+    <div class="sticker sticker-5">品牌设计</div>
+    <div class="sticker sticker-6">动效设计</div>
+  </div>
+
+</section>
+
+<section id="works" class="works-scroll">
+  <h2 class="section-title">精选作品</h2>
+  <div class="works-container" id="worksTrack">
+    <a href="/practice" class="work-card"><span class="card-title">实践项目</span></a>
+    <a href="/mobile" class="work-card"><span class="card-title">移动端</span></a>
+    <a href="/web" class="work-card"><span class="card-title">Web端</span></a>
+    <a href="/h5-graphic" class="work-card"><span class="card-title">H5 & 平面</span></a>
+    <a href="/practice" class="work-card"><span class="card-title">实践项目</span></a>
+    <a href="/mobile" class="work-card"><span class="card-title">移动端</span></a>
+    <a href="/web" class="work-card"><span class="card-title">Web端</span></a>
+    <a href="/h5-graphic" class="work-card"><span class="card-title">H5 & 平面</span></a>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">联系我</h2>
+  <div class="contact-content">
+    <p class="contact-text">让我们一起创造出色的作品。</p>
+    <a href="mailto:hello@light.design" class="contact-email">hello@light.design</a>
+    <div class="contact-socials">
+      <a href="#" class="social-link">Dribbble</a>
+      <a href="#" class="social-link">Behance</a>
+      <a href="#" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2024 Light. All rights reserved.</p>
+</footer>
+<!-- INTERACTIONS SCRIPT -->
+<script>
+  // Works scroll pause
+  const track = document.getElementById("worksTrack");
+  if (track) {
+    track.addEventListener("mouseenter", () => track.classList.add("paused"));
+    track.addEventListener("mouseleave", () => track.classList.remove("paused"));
+  }
+
+  // Hamburger toggle
+  const toggle = document.querySelector(".nav-toggle");
+  const cards = document.getElementById("navCards");
+  if (toggle && cards) {
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggle.classList.toggle("active");
+      cards.classList.toggle("open");
+    });
+    // Click outside to close
+    document.addEventListener("click", (e) => {
+      if (!toggle.contains(e.target) && !cards.contains(e.target) && cards.classList.contains("open")) {
+        toggle.classList.remove("active");
+        cards.classList.remove("open");
+      }
+    });
+  }
+</script>

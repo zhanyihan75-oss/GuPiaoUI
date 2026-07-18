@@ -1,0 +1,227 @@
+﻿---
+---
+
+<head>
+  <link rel="stylesheet" href="/styles/global.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<!-- NAV -->
+<div class="navbar">
+  <div class="navbar-inner">
+    <!-- Left: Hamburger -->
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <div class="hamburger-lines">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+
+    <!-- Center: Name -->
+    <a href="/" class="nav-logo-center">
+      <span class="logo-text">LIGHT</span>
+    </a>
+
+    <!-- Right: Circle Logo -->
+    <a href="/" class="logo-circle" aria-label="Home">L</a>
+
+    <!-- Expanded Cards -->
+    <div class="nav-cards" id="navCards">
+      <div class="nav-card nav-card-about">
+        <div class="nav-card-label">About</div>
+        <div class="nav-card-links">
+          <a href="#about" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Basic Info
+          </a>
+          <a href="#about" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Education
+          </a>
+          <a href="#about" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Experience
+          </a>
+        </div>
+      </div>
+      <div class="nav-card nav-card-work">
+        <div class="nav-card-label">Works</div>
+        <div class="nav-card-links">
+          <a href="/practice" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Practice
+          </a>
+          <a href="/mobile" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Mobile
+          </a>
+          <a href="/web" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Web
+          </a>
+          <a href="/h5-graphic" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            H5 &amp; Graphic
+          </a>
+        </div>
+      </div>
+      <div class="nav-card nav-card-contact">
+        <div class="nav-card-label">Contact</div>
+        <div class="nav-card-links">
+          <a href="#contact" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Email
+          </a>
+          <a href="#" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Dribbble
+          </a>
+          <a href="#" class="nav-card-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>Light</h1>
+    <p class="hero-subtitle">Designing experiences that matter</p>
+  </div>
+  <nav class="hero-nav">
+    <a href="#about" class="nav-btn">About</a>
+    <a href="#works" class="nav-btn">Works</a>
+    <a href="#contact" class="nav-btn">Contact</a>
+  </nav>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-grid">
+    <div class="about-photo-wrapper">
+      <div class="about-photo-placeholder"><span>Your Photo</span></div>
+    </div>
+    <div class="about-card card-basic">
+      <h3>Basic Info</h3>
+      <p>UI/UX Designer based in Shanghai, China</p>
+      <p>Focused on creating meaningful digital experiences through thoughtful design and user-centered thinking.</p>
+    </div>
+    <div class="about-card card-edu">
+      <h3>Education</h3>
+      <div class="timeline-item">
+        <span class="timeline-year">2020 &mdash; 2024</span>
+        <span class="timeline-title">Bachelor of Design</span>
+        <span class="timeline-school">XX University</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-year">2019 &mdash; 2020</span>
+        <span class="timeline-title">Foundation Year</span>
+        <span class="timeline-school">Art College</span>
+      </div>
+    </div>
+    <div class="about-card card-exp">
+      <h3>Experience</h3>
+      <div class="exp-item">
+        <span class="exp-company">Company A</span>
+        <span class="exp-role">UI/UX Intern</span>
+        <span class="exp-period">Jun 2023 &mdash; Sep 2023</span>
+        <p>Designed user interfaces for a fintech mobile app serving 500K+ users. Conducted user research and usability testing to iterate on key flows.</p>
+      </div>
+      <div class="exp-item">
+        <span class="exp-company">Company B</span>
+        <span class="exp-role">Design Intern</span>
+        <span class="exp-period">Jan 2023 &mdash; Apr 2023</span>
+        <p>Collaborated with cross-functional teams to ship 3 major product features. Created design systems and component libraries.</p>
+      </div>
+    </div>
+    <div class="sticker sticker-1">UX Design</div>
+    <div class="sticker sticker-2">Design Strategy</div>
+    <div class="sticker sticker-3">Prototyping</div>
+    <div class="sticker sticker-4">User Research</div>
+    <div class="sticker sticker-5">Branding</div>
+    <div class="sticker sticker-6">Motion Design</div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section id="works" class="works-scroll">
+  <h2 class="section-title">Selected Works</h2>
+  <div class="works-container" id="worksTrack">
+    <a href="/practice" class="work-card"><span class="card-title">Practice</span></a>
+    <a href="/mobile" class="work-card"><span class="card-title">Mobile</span></a>
+    <a href="/web" class="work-card"><span class="card-title">Web</span></a>
+    <a href="/h5-graphic" class="work-card"><span class="card-title">H5 &amp; Graphic</span></a>
+    <a href="/practice" class="work-card"><span class="card-title">Practice</span></a>
+    <a href="/mobile" class="work-card"><span class="card-title">Mobile</span></a>
+    <a href="/web" class="work-card"><span class="card-title">Web</span></a>
+    <a href="/h5-graphic" class="work-card"><span class="card-title">H5 &amp; Graphic</span></a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Get in Touch</h2>
+  <div class="contact-content">
+    <p class="contact-text">Let&#39;s create something great together.</p>
+    <a href="mailto:hello@light.design" class="contact-email">hello@light.design</a>
+    <div class="contact-socials">
+      <a href="#" class="social-link">Dribbble</a>
+      <a href="#" class="social-link">Behance</a>
+      <a href="#" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>&copy; 2024 Light. All rights reserved.</p>
+</footer>
+
+<!-- INTERACTIONS SCRIPT -->
+<script>
+  // Works scroll pause
+  const track = document.getElementById("worksTrack");
+  if (track) {
+    track.addEventListener("mouseenter", () => track.classList.add("paused"));
+    track.addEventListener("mouseleave", () => track.classList.remove("paused"));
+  }
+
+  // Hamburger toggle
+  const toggle = document.querySelector(".nav-toggle");
+  const cards = document.getElementById("navCards");
+  if (toggle && cards) {
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggle.classList.toggle("active");
+      cards.classList.toggle("open");
+    });
+    // Click outside to close
+    document.addEventListener("click", (e) => {
+      if (!toggle.contains(e.target) && !cards.contains(e.target) && cards.classList.contains("open")) {
+        toggle.classList.remove("active");
+        cards.classList.remove("open");
+      }
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
